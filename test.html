@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>شغف الفن </title>
+    <!-- FAV ICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- style sheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="Form.scss">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!------------------ ANIMATION ON SCROLL-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-----------------FONT AWESOME ------------------------>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!---------------- GOOGLE FONTS --------------->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//www.fontstatic.com/f=sky-bold">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap"
+        rel="stylesheet">
+    <!---->
+</head>
+
+<body>
+
+
+    <!--------------- navbar starts here --------------->
+    <nav>
+        <!--
+            nav 
+            #brand 
+            -->
+        <span id="brand">
+            <a href="#home"><img height="65px" width="65" src="images/shag.png" alt=""></a>
+        </span>
+
+        <ul id="menu">
+            <li><a href="#Home">الرئيسية</a></li>
+            <li><a href="/services.html">خدماتنا</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+
+        <div id="toggle">
+            <div class="span"><i class="fa fa-bars"></i></div>
+        </div>
+
+    </nav>
+
+    <div id="resize">
+        <div class="close-btn"><i class="fa fa-times"></i></div>
+
+        <ul id="menu">
+            <li><a href="#Home">الرئيسية</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </div>
+    <!--------------- navbar ends here --------------->
+
+
+    <div class="wrapper">
+        <div class="hero-section" id="Home">
+
+
+
+            <!--    
+            <div class="menu-btn">
+                <ion-icon name="menu"></ion-icon>
+            </div> -->
+
+            <ul>
+                <li>
+                    <div class="bg-video">
+                        <div class="color-overlay"></div>
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="herovideo"
+                            poster="Shart.jpg">
+                            <source src="video_2019-08-09_21-57-45.mp4" type="video/mp4">
+                        </video>
+                        <div class="container">
+                            <div class="vidContent">
+                                <!--
+                                <h1>شغف الفن</h1>
+                                <p class="text-center">
+                                    !ابدا بتحقيق شغفك
+                                </p>
+                                -->
+                                <a href="" id="vidBtn">!ابدا بتحقيق شغفك
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <section class="aboutus" id="about_us">
+        <div class="container">
+            <div class="row about-row">
+                <div class="col-md-12">
+                    <div class="about-box">
+                        <h1>من نحن؟</h1>
+                        <p>
+                            مؤسسة سعودية متخصصة في مجالات الإعلام الرقمي
+                            والتسويق الالكتروني ومايدعمها من إنتاجات مرئية ، نقدم في شغف منظومة من الخدمات الاعلامية
+                            المختلفة،
+                            نسعى للريادة في هذه المجالات عبر أساليب إبداعية تحقق أعلى مستوى من الجودة و الريادة .
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--
+    <div class="menu">
+        <div class="close-menu">
+            <ion-icon name="close"></ion-icon>
+        </div>
+
+        <div class="nav">
+            <ul class="main-menu">
+                <li class="main-menu-item">
+                    <a href="#">Home</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#">Our Products &nbsp; <ion-icon name="add"></ion-icon></a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#">Fonts</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Mockups</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Presets</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#">Portfolio &nbsp; <ion-icon name="add"></ion-icon></a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#">Timeless flow</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Foretime</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Never again</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Departure</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#">Our Story</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#">Contact &nbsp; <ion-icon name="add"></ion-icon></a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#">Call now</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#">Mail us</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="media">
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+    </div>
+    </div>-->
+
+    <section class="Services" id="services_sec">
+        <div class="container">
+
+            <div class="row row-serv">
+                <div class="col-md-12 text-center">
+                    <div class="sub-heading">
+                        <h2>خدماتنا</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row servies-row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="box" data-aos="fade-up" data-aos-offset="250">
+                        <div class="content">
+                            <img src="images/editing.png" class="img-responsive img-ser" alt="">
+                            <h3>الإنتاج المرئي</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quam quos omnis vitae et sunt, aut nobis earum fugiat
+                                nihil non eaque quia aliquam alias quae. Iure vel
+                                laudantium suscipit ratione?</p>
+                            <a class="serv-btn" href="Media.html">المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box" data-aos="fade-up" data-aos-offset="250">
+                        <div class="content">
+                            <img src="images/markting.png" class="img-responsive img-ser" alt="">
+                            <h3>التسويق</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quam quos omnis vitae et sunt, aut nobis earum fugiat
+                                nihil non eaque quia aliquam alias quae. Iure vel
+                                laudantium suscipit ratione?</p>
+                            <a class="serv-btn" href="market.html">المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class=" box-desc">
+                        <div class="content">
+                            <h3>خدماتنا</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit.
+                                Quam quos omnis</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BREAK BETWEEN SERVICES AND SHOWREEL
+
+    <section class="break-img">
+        <div class="row"></div>
+        <div class="col-sm-12 text-center">
+            <div class="sub-break">
+                <h2>SHOWREELS</h2>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+
+
+    <section class="client-section" id="client_sec">
+        <div class="container">
+            <h2>عملائنا</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="customer-logos slider">
+                            <div class="slide"><img src="images/وزارة الصحة.png"></div>
+                            <div class="slide"><img src="images/مركز التواصل.png"></div>
+                            <div class="slide"><img src="images/جمعية وادي نخلة.png"></div>
+                            <div class="slide"><img src="images/جمعية نماء.png"></div>
+                            <div class="slide"><img src="images/جمعية البر بالشرائع.png"></div>
+                            <div class="slide"><img src="images/فندق فوربوينتس.png"></div>
+                            <div class="slide"><img src="images/أمارة مكة.png"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--  Fancy inputs  -->
+    <!--  Fancy inputs  -->
+    <section class="middle" id="contact_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-sub-mob">
+                        <h1>نسعد بتواصلك معنا</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="insert.php" method="POST">
+                        <div id="fancy-inputs">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-center">
+                                    <label class="input">
+                                        <input type="text" name="name" id="name"required>
+                                        <span><span>الإسم الكريم</span></span>
+                                    </label>
+                                </div>
+                                <div class="col-md-6 col-sm-12 text-center">
+                                    <label class="input">
+                                        <input type="email" name="email" id="email" required>
+                                        <span><span>البريد الإلكتروني</span></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-center">
+                                    <label class="input">
+                                        <input type="number" name="phoneNo" id="phoneNo" required>
+                                        <span><span>رقم الهاتف</span></span>
+                                    </label>
+                                </div>
+                                <div class="col-md-6 col-sm-12 text-center">
+                                    <label class="input">
+                                        <input type="text" name="subject" id="subject" required>
+                                        <span><span>الموضوع</span></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <textarea name="message" id="message" rows="8" placeholder="الرسالة" required></textarea>
+
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" data-togle="model" class="btn submit-btn">إرسال</button>
+                                    <span id="#error_message" class="text-danger"></span>
+                                    <span id="#success_message" class="text-success"></span>
+                                    <div class="modal fade" id="ignismyModal" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label=""><span>×</span></button>
+                                                </div>
+                                            
+                                                <div class="modal-body">
+
+                                                    <div class="thank-you-pop">
+                                                        <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png"
+                                                            alt="">
+                                                        <h1>Thank You!</h1>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="contact-sub">
+                            <h1>نسعد بتواصلك معنا</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--right left-->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm text-md">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <h5>اقسام الموقع</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#Home">الرئيسية<i class="fa fa-angle-double-left"></i></a></li>
+                        <li><a href="#services_sec">خدماتنا<i class="fa fa-angle-double-left"></i></a></li>
+                        <li><a href="about.html">من نحن<i class="fa fa-angle-double-left"></i></a></li>
+                        <li><a href="contact.html">تواصل معنا<i class="fa fa-angle-double-left"></i></a></li>
+                        <li><a href="#client_sec">عملائنا<i class="fa fa-angle-double-left"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <h5>تواصل معنا</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="https://goo.gl/maps/8xaakX9jmRzy1kwc6">مكة - العوالي <i
+                                    class="fa fa-home mr-3"></i></a></li>
+                        <li><a href="mailto:4shaghf@gmail.com">4shaghf@gmail.com<i class="fa fa-envelope mr-3"></i></a>
+                        </li>
+                        <li><a href="tel:+966565474958">0565474958<i class="fa fa-phone mr-3"></i></a></li>
+                    </ul>
+                </div>
+                <!--
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                        </ul>
+                    </div> -->
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://twitter.com/4shaghf"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/4shaghf/?hl=en"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p class="h6"> All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com"
+                            target="_blank"> SHAGHF</a></p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--
+    <section id="contactus">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <div class="row">
+                <div class="col-md-6">
+
+
+                
+
+
+                    <form action="" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="اسمك الكريم" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="بريدك الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="رقم الجوال" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="الرسالة" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    -->
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script type="text/javascript">
+
+        // navigation starts here
+
+        $("#toggle").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });
+
+        $("#resize ul li a").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });
+
+        $(".close-btn").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });
+
+        // navigation ends here
+        /*
+        $.ajax ({
+            url:"insert.php",
+            method:"POST",
+            data:{name:name,subject:subject,email:email,phoneNo:phoneNo,message:message},
+            success:function(data){
+                $("$form").trigger("reset");
+            }
+        })*/
+
+        $('.submit-btn').click(function() {
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var phoneNo = $('#phoneNo').val();
+            var subject = $('#subject').val();
+            var message = $('#message').val();
+
+            if(name == '' || email == '' || phoneNo == '' || subject == '' || message == ''){
+                $('#error_message').html('All Fields are requirment');
+            } else {
+                $('#error_message').html('');
+                $.ajax({
+                    url:"insert.php",
+                    method:"POST",
+                    data:{name:name,email:email,phoneNo:phoneNo,subject:subject,message:message},
+                    success:function(data){
+                        $("form").trigger("reset");
+                        $('#success_message').fadeIn().html(data);
+                        setTimeout(() => {
+                            $('#success_message').fadeOut('slow');
+                        }, 2000); 
+                    }
+                });
+            }
+            
+
+        });
+        // nav animation
+
+        TweenMax.from("#brand", 1, {
+            delay: 0.4,
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom("#menu li a", 1, {
+            delay: 0.4,
+            opacity: 0,
+            ease: Expo.easeInOut
+        }, 0.1);
+
+        // nav animation ends
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!---->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
